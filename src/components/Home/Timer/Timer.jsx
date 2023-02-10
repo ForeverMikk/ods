@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+import './Timer.css';
 
 const Timer = () => {
     const [days, setDays] = useState(0);
@@ -23,33 +24,32 @@ const Timer = () => {
     
         return () => clearInterval(interval);
       }, []);
-    
 
     return (
         <div className="timer flex justify-items-center" role="timer">
             <div className="col-4">
                 <div className="box">
-                    <p id="day">{days < 10 ? "0" + days : days}</p>
-                    <span className="text">Days</span>
+                    <p className='text-3xl font-semibold' id="day">{days < 10 ? "0" + days : days}</p>
+                    <span className="text font-medium">Days</span>
                 </div>
             </div>
             <div className="col-4">
                 <div className="box">
-                    <p id="hour">{hours < 10 ? "0" + hours : hours}</p>
-                    <span className="text">Hours</span>
+                    <p className='text-3xl font-semibold' id="hour">{hours < 10 ? "0" + hours : hours}</p>
+                    <span className="text font-medium">Hours</span>
                 </div>
             </div>
             <div className="col-4">
                 <div className="box">
-                    <p id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
-                    <span className="text">Minutes</span>
+                    <p className='text-3xl font-semibold' id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
+                    <span className="text font-medium">Minutes</span>
                 </div>
             </div>
 
             <div className="col-4">
                 <div className="box">
-                    <p id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
-                    <span className="text">Seconds</span>
+                    <p className='text-3xl font-semibold' id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
+                    <span className="text font-medium">Seconds</span>
                 </div>
             </div>
 

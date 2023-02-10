@@ -12,9 +12,10 @@ const Home = () => {
         <Navbar />
         <div className="landing flex flex-col justify-center items-center content-center">
             <h1 className="font-bold">ODS</h1>
-            <h3 className='uppercase'>Para cumplir con la meta de 2023</h3>
+            <h3 className='subtitle uppercase font-medium'>Para cumplir con la meta de 2023</h3>
             <Timer />
         </div>
+        <button className='init uppercase'>Iniciar</button>
     </div>
     )
 }

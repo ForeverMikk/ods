@@ -5,3 +5,19 @@
 .landing {
     height: 80%;
 }
+
+.landing .subtitle {
+    color: gray;
+}
+
+.home .init {
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    background: #8E2143;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.home {
+    text-align: right;
+}
