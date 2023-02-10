@@ -26,7 +26,7 @@ const Timer = () => {
     
 
     return (
-        <div className="timer flex center" role="timer">
+        <div className="timer flex justify-items-center" role="timer">
             <div className="col-4">
                 <div className="box">
                     <p id="day">{days < 10 ? "0" + days : days}</p>
