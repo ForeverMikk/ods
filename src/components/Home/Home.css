@@ -1,15 +1,12 @@
 .home {
     height: 100vh;
 }
-
 .landing {
     height: 80%;
 }
-
 .landing .subtitle {
     color: gray;
 }
-
 .home .init {
     padding: 0.25rem 1rem;
     border-radius: 20px;
@@ -17,7 +14,6 @@
     color: #fff;
     margin-bottom: 3rem;
 }
-
 .home {
     text-align: right;
 }
