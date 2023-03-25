@@ -8,7 +8,6 @@ import Timer from './Timer/Timer';
 const Home = () => {
     return (
     <div className="home" >
-        
         <Navbar />
         <div className="landing flex flex-col justify-center items-center content-center">
             <h1 className="font-bold">ODS</h1>

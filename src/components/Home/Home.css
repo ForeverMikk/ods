@@ -3,6 +3,11 @@
 }
 .landing {
     height: 80%;
+    background: url('./../../assets//clock.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 15rem; */
 }
 .landing .subtitle {
     color: gray;

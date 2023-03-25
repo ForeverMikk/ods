@@ -26,33 +26,36 @@ const Timer = () => {
       }, []);
 
     return (
-        <div className="timer flex justify-items-center" role="timer">
-            <div className="col-4">
-                <div className="box">
-                    <p className='text-3xl font-semibold' id="day">{days < 10 ? "0" + days : days}</p>
-                    <span className="text font-medium">Days</span>
-                </div>
-            </div>
-            <div className="col-4">
-                <div className="box">
-                    <p className='text-3xl font-semibold' id="hour">{hours < 10 ? "0" + hours : hours}</p>
-                    <span className="text font-medium">Hours</span>
-                </div>
-            </div>
-            <div className="col-4">
-                <div className="box">
-                    <p className='text-3xl font-semibold' id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
-                    <span className="text font-medium">Minutes</span>
-                </div>
-            </div>
+        <div className="img-bg">
 
-            <div className="col-4">
-                <div className="box">
-                    <p className='text-3xl font-semibold' id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
-                    <span className="text font-medium">Seconds</span>
+            <div className="timer flex justify-items-center" role="timer" >
+                <div className="col-4">
+                    <div className="box">
+                        <p className='text-3xl font-semibold' id="day">{days < 10 ? "0" + days : days}</p>
+                        <span className="text font-medium">Days</span>
+                    </div>
                 </div>
-            </div>
+                <div className="col-4">
+                    <div className="box">
+                        <p className='text-3xl font-semibold' id="hour">{hours < 10 ? "0" + hours : hours}</p>
+                        <span className="text font-medium">Hours</span>
+                    </div>
+                </div>
+                <div className="col-4">
+                    <div className="box">
+                        <p className='text-3xl font-semibold' id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
+                        <span className="text font-medium">Minutes</span>
+                    </div>
+                </div>
 
+                <div className="col-4">
+                    <div className="box">
+                        <p className='text-3xl font-semibold' id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
+                        <span className="text font-medium">Seconds</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }
